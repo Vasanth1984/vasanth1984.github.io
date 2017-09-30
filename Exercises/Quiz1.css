@@ -1,0 +1,75 @@
+*{
+    box-sizing:boredr-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box; 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
+body{
+    font-family: "Lato";
+    font-weight: normal;
+}
+
+.Main {
+    display: flex; 
+    background-color: grey;
+    flex-direction:row; 
+    margin: 10%;
+    border: 10px solid black;
+    flex-wrap: wrap; 
+    justify-content: flex-start;  
+    Padding: 10px; 
+}
+
+.Sub1 {
+    font-size: 20px;
+    flex-grow: 1;
+    margin: 10px;
+    text-align: center;
+    flex-basis: 50px;  
+}
+
+.Sub2 {
+    text-align: center;
+    flex-grow:2;
+    flex-basis: 100px;
+    border-left: 2px solid white;  
+    padding: 5px;  
+}
+
+.image {
+    display: block;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	border: 2px solid black;
+    border-radius: 50%;
+    background-color: white; 
+}
+
+.my-form {
+    width:150px;
+    margin:auto; 
+}
+
+input, textarea {
+    width: 100%;
+    border: 2px solid black; 
+}
+
+input {
+    padding: 1px;
+}
+
+textarea {
+    padding: 1px; 
+    margin-top: 10px; 
+}
+
+input[type=submit]{
+    Border: 0; 
+    border: 10px solid grey;
+	background-color:black; 
+	color: white; 
+}
