@@ -1,0 +1,32 @@
+
+.my-thumb {
+    width:100%;
+}
+
+.embed-responsive-item {
+    padding:10px; 
+}
+
+.col-md-6 p {
+    text-align: justify; 
+}
+
+.col-md-4 h3 {
+    text-align: center;  
+}
+
+.col-sm-12 {
+    align-content: center; 
+    text-align: center;
+    align-items: center; 
+}
+
+@media (max-width: 500px) {
+    .back_red{
+        font-size:80px; 
+    }
+
+    .back_black{
+        font-size:8px;
+    }
+}
